@@ -1,4 +1,5 @@
 Exercises
+
 In the following declarations, the x and y sUuctures have members named x and y:
 struct { int x, y;} x;
 struct { int x, y;} y;
