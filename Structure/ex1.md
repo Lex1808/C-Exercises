@@ -1,8 +1,7 @@
 Exercises
 
 In the following declarations, the x and y sUuctures have members named x and y:
-struct { int x, y;} x;
-
+struct { int x, y;} x; 
 struct { int x, y;} y;
 Are these declarations legal on an individual basis? Could both declarations appear as shown in a program? Justify your answer
 
