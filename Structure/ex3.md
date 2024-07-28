@@ -1,4 +1,4 @@
-**Exercise**
+**Exercise** \
 Write the following functions, assuming that the date structure contains three members: month, day, and year (all of type int). \
 (a) int day_of_year (struct date d); \
 Returns the day of the year (an integer from I to 366) corresponding to the date d. \
