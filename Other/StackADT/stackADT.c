@@ -5,7 +5,7 @@
 #define STACK_SIZE 100
 
 struct stack_type {
-    int contents[STACK_SIZE];
+    Item contents[STACK_SIZE];
     int top;
 };
 
