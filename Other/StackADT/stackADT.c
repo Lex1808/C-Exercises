@@ -33,7 +33,7 @@ void make_empty(Stack s) {
 bool is_empty(Stack s) {
     return s->top == 0;
 }
-bool if_full(Stack s) {
+bool is_full(Stack s) {
     return s->top == STACK_SIZE;
 }
 
