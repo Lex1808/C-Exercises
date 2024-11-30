@@ -6,3 +6,7 @@
 like to store all three values in a single long integer. Write a macro named MK COLOR with three parameters (the red. green, and blue intensities). <br>
 MK_COLOR should return a long in which the last three bytes contain the red. green, and blue intensities, with the red value as the last byte and the green value as the next-to-last byte <br>
 [5] Write macros named GET RED. GET_GREEN. and GET BLUE that, when given a color as an argument (see Exercise 4), return its 8-bit red. green, and blue intensities. <br>
+[6] (a) Use the bitwise operators to write the following function: <br>
+unsigned short swap_bytes(unsigned short i); <br>
+swap bytes should return the number that results from swapping the two bytes in i.(Short integers occupy two bytes on most computers.) For example, <br>
+if i has the value 0x1234 (00010010 00110100 in binary), then swap_bytes should return 0x3412 (00110100 00010010 in binary). <br>
