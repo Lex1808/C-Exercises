@@ -10,3 +10,12 @@ MK_COLOR should return a long in which the last three bytes contain the red. gre
 unsigned short swap_bytes(unsigned short i); <br>
 swap bytes should return the number that results from swapping the two bytes in i.(Short integers occupy two bytes on most computers.) For example, <br>
 if i has the value 0x1234 (00010010 00110100 in binary), then swap_bytes should return 0x3412 (00110100 00010010 in binary). <br>
+[7] Write the following functions: <br>
+unsigned int rotate_left(unsigned int i, int n); <br>
+unsigned int rotate_right(unsigned int i, int n); <br>
+rotate left should return the result of shifting the bits in i to the left by n places, with the bits that were "shifted off moved to the right end of i. <br>
+(For example, the call rotate_left(0x12345678, 4) should return 0x23456781 if integers are 32 bits long.) rotate right is similar, but it should "rotate” bits to the right instead of the left. <br>
+[8] (a) Write the following function: <br>
+int count_ones(unsigned char ch); <br>
+count ones should return the number of 1 bits in ch. <br>
+(b) Write die function in part (a) without using a loop. <br>
