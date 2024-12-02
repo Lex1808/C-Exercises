@@ -19,3 +19,18 @@ rotate left should return the result of shifting the bits in i to the left by n 
 int count_ones(unsigned char ch); <br>
 count ones should return the number of 1 bits in ch. <br>
 (b) Write die function in part (a) without using a loop. <br>
+[9] Write the following function: <br>
+unsigned int reverse_bits(unsigned int n); <br>
+reverse_bits should return an unsigned integer whose bits are the same as those in n but in reverse order. <br>
+[10] Each of the following macros defines the position of a single bit within an integer: <br>
+#define SHIFT_BIT 1 <br>
+#define CTRL_BIT 2 <br>
+#define ALT_BIT 4 <br>
+The following statement is supposed to test whether any of the three bits have been set. but it never displays the specified message. Explain why the statement doesn’t work and show <br>
+how to fix it. Assume that key_code is an int variable. <br>
+if (key_code & (SHIFT_BIT | CTRL_BIT | ALT_BIT) == 0) <br>
+printf("No modifier keys pressed\n"); <br>
+[11] The following function supposedly combines two bytes to form an unsigned short integer. Explain why the function doesn't work and show how to fix it. <br>
+unsigned short create_short(unsigned char high_byte, unsigned char low_byte) <br>
+return high_byte << 8 + low byte; <br>
+} <br>
