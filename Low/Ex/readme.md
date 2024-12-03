@@ -34,3 +34,7 @@ printf("No modifier keys pressed\n"); <br>
 unsigned short create_short(unsigned char high_byte, unsigned char low_byte) <br>
 return high_byte << 8 + low byte; <br>
 } <br>
+[12] When stored according to the IEEE floating-point standard, a float value consists of a 1-bit sign (the leftmost—or most significant—bit), an 8-bit exponent, <br> 
+and a 23-bit fraction, in that order. Design a structure type that occupies 32 bits, with bit-field members corresponding to the sign, exponent, and fraction. <br>
+Declare the bit-fields to have type unsigned int. <br>
+Check the manual for your compiler to determine the order of the bit-fields. <br>
